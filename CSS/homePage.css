@@ -1,0 +1,64 @@
+#side-bar, #main-section, #user-info, #navigators, #search-section, button, #x111, #x222{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+#side-bar, #main-section  {
+    height: 100vh;
+}
+
+#account-info {
+    height: 11vh;
+}
+#navigators{
+    height: 85vh;
+}
+
+#account-pict {
+    border-radius: 50%;
+    width: 18%;
+}
+
+a {
+    color: white;
+}
+
+#our-name {
+    color: #00d488;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+a:hover{
+    color: #00d488;
+    font-size: large;
+}
+
+#search-bar {
+    border-radius: 50px;
+    width: 96%;
+    margin: 2%
+}
+
+.poster-img {
+    height: 30vh;
+    width: auto;
+    border-radius: 15%;
+}
+
+button:hover {
+    background-color: #00d488;
+}
+
+#higher {
+    height: 10vh;
+}
+
+#middle {
+    height: 40vh;
+}
+
+#lower {
+    height: 40vh;
+}
