@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" href="../CSS/eventPage.css" />
+		<title>Event-Page</title>
+	</head>
+	<body>
+		<div class="container-fluid row align-items-top">
+			<!-- the side bar sectoin -->
+			<div id="side-bar" class="col-md-3">
+				<div id="user-info" class="container-fluid mt-2">
+					<div id="account-info" class="row align-items-center">
+						<img
+							id="account-pict"
+							class="col-md-3"
+							src="../Images/profile.jpg"
+							alt="account-pict"
+						/>
+						<div class="col-6">
+							<h6 style="font-size: larger">Student Name</h6>
+						</div>
+						<button
+							id="settings-button"
+							class="col-md-1"
+							style="width: min-content"
+						>
+							⚙️
+						</button>
+						<button
+							id="logout-button"
+							class="col-md-1"
+							style="width: min-content"
+						>
+							❌
+						</button>
+					</div>
+				</div>
+				<div id="navigators" class="mt-2">
+					<div
+						id="side-bar-buttons"
+						class="row align-items-center container-fluid"
+					>
+						<h6 style="font-size: larger">
+							<a href="../Html/homePage.html" style="text-decoration: none"
+								>🏠 Home</a
+							>
+							<hr />
+						</h6>
+						<h6 style="font-size: larger">
+							<a href="" style="text-decoration: none">🏁 My clubs</a>
+							<hr />
+						</h6>
+						<h6 style="font-size: larger">
+							<a href="" style="text-decoration: none">⭐ My Events</a>
+							<hr />
+						</h6>
+						<h6 style="font-size: larger">
+							<a href="" style="text-decoration: none">📜 History</a>
+							<hr />
+						</h6>
+						<h6 style="font-size: larger">
+							<a href="" style="text-decoration: none">🔍 Discover Clubs</a>
+							<hr />
+						</h6>
+						<h4 id="our-name">KFUPM Clubs Center</h4>
+					</div>
+				</div>
+			</div>
+			<!-- the main page section -->
+			<div id="main-section" class="col-md-9 container align-items-top">
+				<div id="higher" class="container-fluid mt-2 align-items-center">
+					<div class="row align-items-center">
+						<div id="search-section" class="col-md-9">
+							<form action="">
+								<input
+									type="text"
+									id="search-bar"
+									placeholder="🔍 Search for a club, event..."
+								/>
+							</form>
+						</div>
+						<div id="notifications" class="col-md-3 row align-items-center">
+							<div class="col-md-10">
+								<p style="font-size: small">You have new notifications</p>
+							</div>
+							<div class="col-md-2">
+								<p>⚠️</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr />
+				<div id="lower" class="container-fluid align-items-center">
+					<div id="event-details" class="row align-items-center">
+						<div id="event-desc" class="col">
+							<h1>Flutter Weekend Hackathon</h1>
+							<p id="organizer" style="font-size: large; font-weight: bold">
+								Computer Club
+							</p>
+							<p id="loc-time">📆24-3-2024 | ⏰9:00PM | 📍somewhere</p>
+							<p>🪑available seats | 46</p>
+							<button id="register-button">
+								<h4>Register</h4>
+							</button>
+							<hr />
+							<h2>Details</h2>
+							<p style="text-align: justify">
+								A Flutter Hackathon is an event where programmers, designers,
+								and tech enthusiasts come together to collaborate on creating
+								applications using Flutter, Google's UI toolkit for building
+								natively compiled applications for mobile, web, and desktop from
+								a single codebase. These hackathons are typically time-bound
+								competitions, where participants are challenged to design and
+								develop innovative apps within a specified time frame, usually
+								ranging from 24 hours to a few days. Participants can either
+								work in teams or individually to create apps that are judged on
+								criteria such as innovation, design, and functionality. Flutter
+								Hackathons are an excellent opportunity for developers to
+								showcase their skills, learn new techniques, and network with
+								other professionals and enthusiasts in the field.
+							</p>
+						</div>
+						<div
+							id="event-poster-div"
+							class="col"
+							style="display: flex; justify-content: center"
+						>
+							<img
+								src="../Images/eventPoster.png"
+								alt="event-poster"
+								id="event-poster-img"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

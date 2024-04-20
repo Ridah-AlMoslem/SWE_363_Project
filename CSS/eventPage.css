@@ -17,6 +17,7 @@ button
 #account-info {
   height: 11vh;
 }
+
 #navigators {
   height: 85vh;
 }
@@ -65,43 +66,21 @@ button:hover {
   height: 10vh;
   width: 70vw;
 }
-
 /* =================================== */
-.poster-img {
-  height: 22vh;
-  width: auto;
-  border-radius: 15%;
+#event-details
+{
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  height: 82.5vh;
 }
 
-
-#middle {
-  height: 40vh;
+#event-poster-img {
+    height: 80vh;
+    width: auto;
+    border-radius: 25px;
 }
 
-#lower {
-  height: 40vh;
-}
-
-.slide-container {
-  max-width: 70rem;
-  width: 100%;
-}
-
-.slide-content {
-  margin: 0 3rem;
-}
-
-.event-poster, .news-poster {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 3rem;
-  gap: 1rem;
-}
-.news-poster .desc {
-  display: flex;
-  flex-direction: column;
-}
-.event-poster .desc {
-  display: flex;
-  flex-direction: column;
+#register-button {
+    background-color: #00d488;
+    border-radius: 10px;
 }
