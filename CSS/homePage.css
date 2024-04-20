@@ -1,64 +1,102 @@
-#side-bar, #main-section, #user-info, #navigators, #search-section, button, #x111, #x222{
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
+#side-bar,
+#main-section,
+#user-info,
+#navigators,
+#higher,
+button
+{
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
 
-#side-bar, #main-section  {
-    height: 100vh;
+#side-bar,
+#main-section {
+  height: 100vh;
 }
 
 #account-info {
-    height: 11vh;
+  height: 11vh;
 }
-#navigators{
-    height: 85vh;
+#navigators {
+  height: 85vh;
 }
 
 #account-pict {
-    border-radius: 50%;
-    width: 18%;
+  border-radius: 50%;
+  width: 18%;
 }
 
 a {
-    color: white;
+  color: white;
 }
 
 #our-name {
-    color: #00d488;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+  color: #00d488;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
-a:hover{
-    color: #00d488;
-    font-size: large;
+a:hover {
+  color: #00d488;
+  font-size: large;
 }
 
 #search-bar {
-    border-radius: 50px;
-    width: 96%;
-    margin: 2%
+  border-radius: 50px;
+  width: 50vw;
+  margin: 2%;
+}
+
+#search-section {
+  /* width: 70vw; */
+}
+
+#notifications {
+  border-radius: 20px;
+  background-color: #00d48659;
 }
 
 .poster-img {
-    height: 30vh;
-    width: auto;
-    border-radius: 15%;
+  height: 22vh;
+  width: auto;
+  border-radius: 15%;
 }
 
 button:hover {
-    background-color: #00d488;
+  background-color: #00d488;
 }
 
 #higher {
-    height: 10vh;
+  height: 10vh;
+  width: 70vw;
 }
 
 #middle {
-    height: 40vh;
+  height: 40vh;
 }
 
 #lower {
-    height: 40vh;
+  height: 40vh;
+}
+
+.slide-container {
+  max-width: 70rem;
+  width: 100%;
+}
+
+.slide-content {
+  margin: 0 3rem;
+}
+
+.event-poster {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+  gap: 1rem;
+}
+
+.event-poster .desc {
+  display: flex;
+  flex-direction: column;
 }

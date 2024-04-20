@@ -9,6 +9,10 @@
 			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
 			crossorigin="anonymous"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
 		<link rel="stylesheet" href="../CSS/homePage.css" />
 		<title>Home-Page</title>
 	</head>
@@ -50,7 +54,7 @@
 					>
 						<h6 style="font-size: larger">
 							<a href="../Html/homePage.html" style="text-decoration: none"
-								>🏠 Hmoe</a
+								>🏠 Home</a
 							>
 							<hr />
 						</h6>
@@ -76,15 +80,25 @@
 			</div>
 			<!-- the main page section -->
 			<div id="main-section" class="col-md-9 container align-items-top">
-				<div id="higher" class="container mt-2">
-					<div id="search-section">
-						<form action="">
-							<input
-								type="text"
-								id="search-bar"
-								placeholder="🔍 Search for a club, event..."
-							/>
-						</form>
+				<div id="higher" class="container-fluid mt-2 align-items-center">
+					<div class="row align-items-center">
+						<div id="search-section" class="col-md-9">
+							<form action="">
+								<input
+									type="text"
+									id="search-bar"
+									placeholder="🔍 Search for a club, event..."
+								/>
+							</form>
+						</div>
+						<div id="notifications" class="col-md-3 row align-items-center">
+							<div class="col-md-10">
+								<p style="font-size: small">You have new notifications</p>
+							</div>
+							<div class="col-md-2">
+								<p>⚠️</p>
+							</div>
+						</div>
 					</div>
 				</div>
 				<hr />
@@ -92,17 +106,68 @@
 					<div>
 						<h1>News</h1>
 					</div>
-					<div id="news" class="container-fluid row">
-						<div class="news-poster container-fluid row">
-							<img
-								src="../Images/News_image.png"
-								alt="new-pict"
-								class="poster-img col-md-8"
-							/>
-							<div class="col-md-4">
-								<h3>title</h3>
-								<p>details</p>
+					<div class="slide-container swiper">
+						<div class="slide-content">
+							<div class="card-wrapper swiper-wrapper">
+								<div class="news-poster swiper-slide">
+									<img
+										src="../Images/News_image.png"
+										alt="new-pict"
+										class="poster-img col-md-8"
+									/>
+									<div class="col-md-4 desc">
+										<h3>title</h3>
+										<p>details</p>
+									</div>
+								</div>
+								<div class="news-poster swiper-slide">
+									<img
+										src="../Images/News_image.png"
+										alt="new-pict"
+										class="poster-img col-md-8"
+									/>
+									<div class="col-md-4 desc">
+										<h3>title</h3>
+										<p>details</p>
+									</div>
+								</div>
+								<div class="news-poster swiper-slide">
+									<img
+										src="../Images/News_image.png"
+										alt="new-pict"
+										class="poster-img col-md-8"
+									/>
+									<div class="col-md-4 desc">
+										<h3>title</h3>
+										<p>details</p>
+									</div>
+								</div>
+								<div class="news-poster swiper-slide">
+									<img
+										src="../Images/News_image.png"
+										alt="new-pict"
+										class="poster-img col-md-8"
+									/>
+									<div class="col-md-4 desc">
+										<h3>title</h3>
+										<p>details</p>
+									</div>
+								</div>
+								<div class="news-poster swiper-slide">
+									<img
+										src="../Images/News_image.png"
+										alt="new-pict"
+										class="poster-img col-md-8"
+									/>
+									<div class="col-md-4 desc">
+										<h3>title</h3>
+										<p>details</p>
+									</div>
+								</div>
 							</div>
+							<div class="swiper-button-next"></div>
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-pagination"></div>
 						</div>
 					</div>
 				</div>
@@ -111,17 +176,68 @@
 					<div>
 						<h1>Upcoming Events</h1>
 					</div>
-					<div id="upcoming-events">
-						<div class="event-poster container-fluid row">
-							<img
-								src="../Images/event.png"
-								alt="event-poster"
-								class="poster-img col-md-8"
-							/>
-							<div class="col-md-4">
-								<h3>Event Name</h3>
-								<p>event describtion</p>
+					<div class="slide-container swiper">
+						<div class="slide-content">
+							<div class="card-wrapper swiper-wrapper">
+								<div class="event-poster swiper-slide">
+									<img
+										src="../Images/event.png"
+										alt="event-poster"
+										class="poster-img col-md-8"
+									/>
+									<div class="col-md-4 desc">
+										<h3>Event Name</h3>
+										<p>event describtion</p>
+									</div>
+								</div>
+								<div class="event-poster swiper-slide">
+									<img
+										src="../Images/event.png"
+										alt="event-poster"
+										class="poster-img col-md-8"
+									/>
+									<div class="col-md-4">
+										<h3>Event Name</h3>
+										<p>event describtion</p>
+									</div>
+								</div>
+								<div class="event-poster swiper-slide">
+									<img
+										src="../Images/event.png"
+										alt="event-poster"
+										class="poster-img col-md-8"
+									/>
+									<div class="col-md-4">
+										<h3>Event Name</h3>
+										<p>event describtion</p>
+									</div>
+								</div>
+								<div class="event-poster swiper-slide">
+									<img
+										src="../Images/event.png"
+										alt="event-poster"
+										class="poster-img col-md-8"
+									/>
+									<div class="col-md-4">
+										<h3>Event Name</h3>
+										<p>event describtion</p>
+									</div>
+								</div>
+								<div class="event-poster swiper-slide">
+									<img
+										src="../Images/event.png"
+										alt="event-poster"
+										class="poster-img col-md-8"
+									/>
+									<div class="col-md-4">
+										<h3>Event Name</h3>
+										<p>event describtion</p>
+									</div>
+								</div>
 							</div>
+							<div class="swiper-button-next"></div>
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-pagination"></div>
 						</div>
 					</div>
 				</div>
@@ -132,5 +248,7 @@
 			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 			crossorigin="anonymous"
 		></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="../JS/homePage.js"></script>
 	</body>
 </html>
