@@ -13,3 +13,8 @@ Welcome to the KFUPM Club Portal! This website is designed to enhance the extrac
 ## Motivation
 
 This project aims to foster a vibrant community at KFUPM by making it easier for students to get involved in club activities and events. By centralizing club information and registration, we strive to increase student engagement and enrich the university life experience.
+
+## project Structure
+
+- We are using Folder for each type of file: Folder for Html, Folder for CSS, folder for JS, folder for images.
+- Files that connected with each others have same names.
