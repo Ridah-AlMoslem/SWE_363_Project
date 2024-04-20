@@ -35,6 +35,7 @@
 							id="settings-button"
 							class="col-md-1"
 							style="width: min-content"
+							onclick="window.location.href='../Html/settings.html'"
 						>
 							⚙️
 						</button>
@@ -42,6 +43,7 @@
 							id="logout-button"
 							class="col-md-1"
 							style="width: min-content"
+							onclick="window.location.href='../Html/signIn.html'"
 						>
 							❌
 						</button>
@@ -109,45 +111,37 @@
 				</div>
 				<hr />
 				<div id="lower" class="container-fluid align-items-center">
-					<div id="event-details" class="row align-items-center">
-						<div id="event-desc" class="col">
-							<h1>Flutter Weekend Hackathon</h1>
-							<p id="organizer" style="font-size: large; font-weight: bold">
-								Computer Club
-							</p>
-							<p id="loc-time">📆24-3-2024 | ⏰9:00PM | 📍somewhere</p>
-							<p>🪑available seats | 46</p>
-							<button id="register-button">
-								<h4>Register</h4>
-							</button>
+					<div class="row align-items-center">
+						<img
+							id="account-pict"
+							class="col-md-6"
+							src="../Images/profile.jpg"
+							alt="account-pict"
+						/>
+						<div class="col-md-6">
+							<h3>First Name</h3>
+							<h5 style="padding-left: 5%; color: #00d488">
+								student's first name
+							</h5>
 							<hr />
-							<h2>Details</h2>
-							<p style="text-align: justify">
-								A Flutter Hackathon is an event where programmers, designers,
-								and tech enthusiasts come together to collaborate on creating
-								applications using Flutter, Google's UI toolkit for building
-								natively compiled applications for mobile, web, and desktop from
-								a single codebase. These hackathons are typically time-bound
-								competitions, where participants are challenged to design and
-								develop innovative apps within a specified time frame, usually
-								ranging from 24 hours to a few days. Participants can either
-								work in teams or individually to create apps that are judged on
-								criteria such as innovation, design, and functionality. Flutter
-								Hackathons are an excellent opportunity for developers to
-								showcase their skills, learn new techniques, and network with
-								other professionals and enthusiasts in the field.
-							</p>
-						</div>
-						<div
-							id="event-poster-div"
-							class="col"
-							style="display: flex; justify-content: center"
-						>
-							<img
-								src="../Images/eventPoster.png"
-								alt="event-poster"
-								id="event-poster-img"
-							/>
+							<h3>Last Name</h3>
+							<h5 style="padding-left: 5%; color: #00d488">
+								student's last name
+							</h5>
+							<hr />
+							<h3>Email</h3>
+							<h5 style="padding-left: 5%; color: #00d488">student's email</h5>
+							<hr />
+							<h3>ID</h3>
+							<h5 style="padding-left: 5%; color: #00d488">student's ID</h5>
+							<hr />
+							<h3>Phone Number</h3>
+							<h5 style="padding-left: 5%; color: #00d488">
+								student's phone number
+							</h5>
+							<hr />
+							<h3>Gender</h3>
+							<h5 style="padding-left: 5%; color: #00d488">student's Gender</h5>
 						</div>
 					</div>
 				</div>
