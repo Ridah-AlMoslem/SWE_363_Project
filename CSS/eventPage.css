@@ -84,3 +84,7 @@ button:hover {
     background-color: #00d488;
     border-radius: 10px;
 }
+
+#register-button:hover {
+    background-color: #00d48659;
+}
