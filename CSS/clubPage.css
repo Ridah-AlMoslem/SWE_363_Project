@@ -1,0 +1,116 @@
+#side-bar,
+#main-section,
+#user-info,
+#navigators,
+#higher,
+button {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+#recommended-club {
+  background-color: rgba(128, 128, 128, 0.05);
+  border-radius: 15px;
+  height: 100%;
+}
+#recommended-club-pic {
+  padding: 8px;
+  border-radius: 20px;
+}
+.grid {
+  display: grid;
+  height: 100%;
+  width: auto;
+  grid-template-columns: repeat(2, auto);
+  grid-row: 100%;
+  grid-gap: 5px;
+}
+
+.row-span {
+  grid-row: span 2;
+}
+
+.grid > div {
+  background-color: #e9e0e0;
+  background-color: rgba(128, 128, 128, 0.05);
+  border-radius: 15px;
+}
+
+.join-button {
+  background-color: #00d48659;
+  border: 0px;
+}
+
+.more-button {
+  background-color: #00d488;
+  border: 0px;
+  color: black;
+  font-weight: 450;
+}
+
+#side-bar,
+#main-section {
+  height: 100vh;
+}
+
+#account-info {
+  height: 11vh;
+}
+#navigators {
+  height: 85vh;
+}
+
+#account-pict {
+  border-radius: 50%;
+  width: 18%;
+}
+
+a {
+  color: white;
+}
+
+#our-name {
+  color: #00d488;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+a:hover {
+  color: #00d488;
+  font-size: large;
+}
+
+#search-bar {
+  border-radius: 50px;
+  width: 49vw;
+  margin: 2%;
+}
+
+#notifications {
+  border-radius: 20px;
+  background-color: #00d48659;
+}
+
+#notifications:hover {
+  background-color: #00d486c4;
+}
+
+button:hover {
+  background-color: #00d488;
+}
+
+#higher {
+  height: 10vh;
+  width: 70vw;
+}
+
+/* =================================== */
+
+#middle {
+  height: 25vh;
+}
+
+#lower {
+  height: 50vh;
+}
