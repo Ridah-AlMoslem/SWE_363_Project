@@ -3,7 +3,9 @@
 #user-info,
 #navigators,
 #higher,
-button
+button,
+#middle,
+#lower
 {
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 20px;
@@ -66,6 +68,39 @@ button:hover {
   width: 70vw;
 }
 
+.small-screen {
+  display: none;
+}
+
+@media screen and (max-width: 1370px) {
+  #side-bar {
+    display: none;
+  }
+  .small-screen {
+    display: contents;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #side-bar, #notifications {
+    display: none;
+  }
+
+  #search-bar {
+    border-radius: 50px;
+    width: 65vw;
+    margin: 2%;
+  }
+
+  .small-screen {
+    display: contents;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+}
+
 /* =================================== */
 .poster-img {
   height: 22vh;
@@ -74,12 +109,10 @@ button:hover {
 }
 
 
-#middle {
+#middle, #lower {
   height: 40vh;
-}
-
-#lower {
-  height: 40vh;
+  padding: 1%;
+  margin: 1%;
 }
 
 .slide-container {
