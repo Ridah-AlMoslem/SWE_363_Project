@@ -66,6 +66,40 @@ button:hover {
   height: 10vh;
   width: 70vw;
 }
+
+.small-screen {
+    display: none;
+  }
+  
+  @media screen and (max-width: 1370px) {
+    #side-bar {
+      display: none;
+    }
+    .small-screen {
+      display: contents;
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 1100px) {
+    #side-bar, #notifications {
+      display: none;
+    }
+  
+    #search-bar {
+      border-radius: 50px;
+      width: 65vw;
+      margin: 2%;
+    }
+  
+    .small-screen {
+      display: contents;
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 20px;
+    }
+  }
+  
 /* =================================== */
 #event-details
 {
