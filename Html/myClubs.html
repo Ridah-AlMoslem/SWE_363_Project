@@ -13,8 +13,8 @@
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 		/>
-		<link rel="stylesheet" href="../CSS/eventPage.css" />
-		<title>Event-Page</title>
+		<link rel="stylesheet" href="../CSS/clubs.css" />
+		<title>My-Clubs-Page</title>
 	</head>
 	<body>
 		<div class="container-fluid row align-items-top">
@@ -106,46 +106,59 @@
 					</div>
 				</div>
 				<hr />
-				<div id="lower" class="container-fluid align-items-center">
-					<div id="event-details" class="row align-items-center">
-						<div id="event-desc" class="col">
-							<h1>Flutter Weekend Hackathon</h1>
-							<p id="organizer" style="font-size: large; font-weight: bold">
-								Computer Club
-							</p>
-							<p id="loc-time">📆24-3-2024 | ⏰9:00PM | 📍somewhere</p>
-							<p>🪑available seats | 46</p>
-							<button id="register-button">
-								<h4>Register</h4>
-							</button>
-							<hr />
-							<h2>Details</h2>
-							<p style="text-align: justify">
-								A Flutter Hackathon is an event where programmers, designers,
-								and tech enthusiasts come together to collaborate on creating
-								applications using Flutter, Google's UI toolkit for building
-								natively compiled applications for mobile, web, and desktop from
-								a single codebase. These hackathons are typically time-bound
-								competitions, where participants are challenged to design and
-								develop innovative apps within a specified time frame, usually
-								ranging from 24 hours to a few days. Participants can either
-								work in teams or individually to create apps that are judged on
-								criteria such as innovation, design, and functionality. Flutter
-								Hackathons are an excellent opportunity for developers to
-								showcase their skills, learn new techniques, and network with
-								other professionals and enthusiasts in the field.
-							</p>
+				<div id="middle">
+					<h1>My Clubs</h1>
+					<div id="clubs-list">
+						<div class="club-cards container-fluid">
+							<div class="club-card row align-items-center">
+								<img
+									class="club-logo col-md-2"
+									src="../Images/clubLogo.png"
+									alt="club-logo"
+								/>
+								<div class="club-info col-md-6">
+									<h4 class="club-name" style="font-weight: bold">
+										Intellectual & Electronic Sport Club
+									</h4>
+									<p
+										class="club-stat"
+										style="color: rgba(255, 255, 255, 0.486)"
+									>
+										🧑🏻‍🤝‍🧑🏻313 member
+									</p>
+								</div>
+								<button class="view-button col-md-4">View</button>
+							</div>
 						</div>
-						<div
-							id="event-poster-div"
-							class="col"
-							style="display: flex; justify-content: center"
-						>
-							<img
-								src="../Images/eventPoster.png"
-								alt="event-poster"
-								id="event-poster-img"
-							/>
+					</div>
+				</div>
+				<hr />
+				<div id="lower">
+					<h1>My Ablications</h1>
+					<div id="Ablications-list">
+						<div class="Ablication-cards container-fluid">
+							<div class="Ablication-card row align-items-center">
+								<img
+									class="club-logo col-md-2"
+									src="../Images/clubLogo2.png"
+									alt="club-logo"
+								/>
+								<div class="club-info col-md-6">
+									<h4 class="club-name" style="font-weight: bold">
+										Computer Club
+									</h4>
+									<p
+										class="club-stat"
+										style="color: rgba(255, 255, 255, 0.486)"
+									>
+										🧑🏻‍🤝‍🧑🏻14 member
+									</p>
+								</div>
+								<div class="col-md-2">
+									<h5>Status</h5>
+									<h style="color: red">Rejected</h>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

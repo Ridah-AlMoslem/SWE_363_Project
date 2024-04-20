@@ -1,0 +1,135 @@
+#side-bar,
+#main-section,
+#user-info,
+#navigators,
+#higher,
+button {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+#side-bar,
+#main-section {
+  height: 100vh;
+}
+
+#account-info {
+  height: 11vh;
+}
+
+#navigators {
+  height: 85vh;
+}
+
+#account-pict {
+  border-radius: 50%;
+  width: 18%;
+}
+
+a {
+  color: white;
+}
+
+#our-name {
+  color: #00d488;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+a:hover {
+  color: #00d488;
+  font-size: large;
+}
+
+#search-bar {
+  border-radius: 50px;
+  width: 49vw;
+  margin: 2%;
+}
+
+#notifications {
+  border-radius: 20px;
+  background-color: #00d48659;
+}
+
+#notifications:hover {
+  background-color: #00d486c4;
+}
+
+button:hover {
+  background-color: #00d488;
+}
+
+#higher {
+  height: 10vh;
+  width: 70vw;
+}
+/* =================================== */
+.club-card,
+.Ablication-card
+{
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-bottom: 1%;
+}
+
+.club-cards {
+    overflow-y: auto;
+}
+
+.club-logo {
+    height: 20.5vh;
+    width: auto;
+    border-radius: 25px;
+    margin: 1%;
+}
+
+.join-button, .more-button {
+    height: fit-content;
+    width: fit-content;
+    margin: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.join-button {
+    background-color: #036441;
+    border-radius: 7px;
+}
+
+.join-button:hover {
+    background-color: #023f29;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.more-button {
+    background-color: #03d88a;
+    border-radius: 7px;
+}
+
+.more-button:hover {
+    background-color: #023f29;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.view-button {
+    height: fit-content;
+    width: fit-content;
+    background-color: #03d88a;
+    border-radius: 7px;
+    margin: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.view-button:hover {
+    background-color: #023f29;
+
+}

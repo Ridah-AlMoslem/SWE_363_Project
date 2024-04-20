@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" href="../CSS/clubs.css" />
+		<title>Clubs-Page</title>
+	</head>
+	<body>
+		<div class="container-fluid row align-items-top">
+			<!-- the side bar sectoin -->
+			<div id="side-bar" class="col-md-3">
+				<div id="user-info" class="container-fluid mt-2">
+					<div id="account-info" class="row align-items-center">
+						<img
+							id="account-pict"
+							class="col-md-3"
+							src="../Images/profile.jpg"
+							alt="account-pict"
+						/>
+						<div class="col-6">
+							<h6 style="font-size: larger">Student Name</h6>
+						</div>
+						<button
+							id="settings-button"
+							class="col-md-1"
+							style="width: min-content"
+						>
+							⚙️
+						</button>
+						<button
+							id="logout-button"
+							class="col-md-1"
+							style="width: min-content"
+						>
+							❌
+						</button>
+					</div>
+				</div>
+				<div id="navigators" class="mt-2">
+					<div
+						id="side-bar-buttons"
+						class="row align-items-center container-fluid"
+					>
+						<h6 style="font-size: larger">
+							<a href="../Html/homePage.html" style="text-decoration: none"
+								>🏠 Home</a
+							>
+							<hr />
+						</h6>
+						<h6 style="font-size: larger">
+							<a href="../Html/myClubs.html" style="text-decoration: none"
+								>🏁 My clubs</a
+							>
+							<hr />
+						</h6>
+						<h6 style="font-size: larger">
+							<a href="" style="text-decoration: none">⭐ My Events</a>
+							<hr />
+						</h6>
+						<h6 style="font-size: larger">
+							<a href="" style="text-decoration: none">📜 History</a>
+							<hr />
+						</h6>
+						<h6 style="font-size: larger">
+							<a href="../Html/clubs.html" style="text-decoration: none"
+								>🔍 Discover Clubs</a
+							>
+							<hr />
+						</h6>
+						<h4 id="our-name">KFUPM Clubs Center</h4>
+					</div>
+				</div>
+			</div>
+			<!-- the main page section -->
+			<div id="main-section" class="col-md-9 container align-items-top">
+				<div id="higher" class="container-fluid mt-2 align-items-center">
+					<div class="row align-items-center">
+						<div id="search-section" class="col-md-9">
+							<form action="">
+								<input
+									type="text"
+									id="search-bar"
+									placeholder="🔍 Search for a club, event..."
+								/>
+							</form>
+						</div>
+						<div id="notifications" class="col-md-3 row align-items-center">
+							<div class="col-md-10">
+								<p style="font-size: small">You have new notifications</p>
+							</div>
+							<div class="col-md-2">
+								<p>⚠️</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr />
+				<div id="lower">
+					<h1>Clubs</h1>
+					<div id="clubs-list">
+						<div class="club-cards container-fluid">
+							<div class="club-card row align-items-center">
+								<img
+									class="club-logo col-md-2"
+									src="../Images/clubLogo.png"
+									alt="club-logo"
+								/>
+								<div class="club-info col-md-6">
+									<h4 class="club-name" style="font-weight: bold">
+										Intellectual & Electronic Sport Club
+									</h4>
+									<p
+										class="club-desc"
+										style="
+											font-size: smaller;
+											font-weight: bold;
+											color: rgba(255, 255, 255, 0.486);
+										"
+									>
+										The Intellectual & Electronic Sport Club (IESC) unites
+										enthusiasts in competitions and social events for brain
+										games and esports, enhancing cognitive skills and fostering
+										community engagement.
+									</p>
+									<p
+										class="club-stat"
+										style="color: rgba(255, 255, 255, 0.486)"
+									>
+										🧑🏻‍🤝‍🧑🏻313 member
+									</p>
+								</div>
+								<button class="join-button col-md-2">Join</button>
+								<button class="more-button col-md-2">More</button>
+							</div>
+
+							<div class="club-card row align-items-center">
+								<img
+									class="club-logo col-md-2"
+									src="../Images/clubLogo2.png"
+									alt="club-logo"
+								/>
+								<div class="club-info col-md-6">
+									<h4 class="club-name" style="font-weight: bold">
+										Computer Club
+									</h4>
+									<p
+										class="club-desc"
+										style="
+											font-size: smaller;
+											font-weight: bold;
+											color: rgba(255, 255, 255, 0.486);
+										"
+									>
+										The Computer Club brings together technology enthusiasts for
+										collaborative projects and educational workshops, focusing
+										on enhancing technical skills and fostering innovation. It
+										serves as a community platform for sharing knowledge and
+										exploring new technologies.
+									</p>
+									<p
+										class="club-stat"
+										style="color: rgba(255, 255, 255, 0.486)"
+									>
+										🧑🏻‍🤝‍🧑🏻14 member
+									</p>
+								</div>
+								<button class="join-button col-md-2">Join</button>
+								<button class="more-button col-md-2">More</button>
+							</div>
+							<div class="club-card row align-items-center">
+								<img
+									class="club-logo col-md-2"
+									src="../Images/clubLogo3.png"
+									alt="club-logo"
+								/>
+								<div class="club-info col-md-6">
+									<h4 class="club-name" style="font-weight: bold">
+										Sport Club
+									</h4>
+									<p
+										class="club-desc"
+										style="
+											font-size: smaller;
+											font-weight: bold;
+											color: rgba(255, 255, 255, 0.486);
+										"
+									>
+										The Sport Club unites enthusiasts in competitions and social
+										events for various sports, enhancing athletic skills and
+										fostering community engagement.
+									</p>
+									<p
+										class="club-stat"
+										style="color: rgba(255, 255, 255, 0.486)"
+									>
+										🧑🏻‍🤝‍🧑🏻12 member
+									</p>
+								</div>
+								<button class="join-button col-md-2">Join</button>
+								<button class="more-button col-md-2">More</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
