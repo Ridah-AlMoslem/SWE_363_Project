@@ -16,5 +16,5 @@ This project aims to foster a vibrant community at KFUPM by making it easier for
 
 ## project Structure
 
-We are using Folder for each type of file: Folder for Html, Folder for CSS, folder for JS, folder for images.
-Files that connected with each others have same names.
+- We are using Folder for each type of file: Folder for Html, Folder for CSS, folder for JS, folder for images.
+- Files that connected with each others have same names.
